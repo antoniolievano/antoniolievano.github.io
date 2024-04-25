@@ -89,6 +89,7 @@ p{
     display: flex;
     width: 28%;
     justify-content: flex-end;
+    align-items: center
     gap: 3rem;
 }
 
@@ -361,10 +362,10 @@ p{
 
 /** Newsletter*/
 .newsletter {
-
     background-position: top center;
     background-repeat: no-repeat;
     background-size: 100%, 70rem;
+    margin-bottom: var(--separacion);
 }
 .notavif.notwebp .newsletter {
     background-image: linear-gradient( to bottom, transparent 50%, var(--blanco) 0% ), url(../img/newsletter.jpg) ;
@@ -461,13 +462,7 @@ p{
 
 @media (min-width: 768px){
     .footer p{
-        padding: 2rem 0;
+        padding: 0 0 2rem 0;
         margin: 0;
-    }
-}
-
-@media (min-width: 1024px){
-    .footer p{
-        margin: 2rem 0;
     }
 }
